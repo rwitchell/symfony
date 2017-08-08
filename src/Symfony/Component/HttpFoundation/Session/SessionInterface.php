@@ -172,6 +172,13 @@ interface SessionInterface
      * @return SessionBagInterface
      */
     public function getBag($name);
+    
+    /**
+     * Gets the flashbag interface.
+     *
+     * @return Flash\FlashBagInterface
+     */
+    public function getFlashBag();
 
     /**
      * Gets session meta.
